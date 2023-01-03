@@ -1,18 +1,13 @@
-## React Native CRUD with Firestore
+# ReactNative FirebaseSDK method for App authentication
 
-**In the project directory, you can run:**
+The reason I want to practice other authentication way. Comparing Firebase Auth REST API,the Firebase Admin SDK provides the ability to revoke refresh tokens for a specified user.
 
-1. Change to your web app's Firebase configuration in `config.js` file
-2. ### `yarn expo start`
-3. ### Hit `a` to run android emulator
-   check the app Demo
-   ![Screenshot](Demo.png)
+In the project, I l practiced how to authenticate to your react native expo mobile device using email id and password. I continue the previouse project `ReactNative-Expo-Firebase-NoteBookProject` I build the siginin and signup to protect the user data. After the Auth setting, the firestore has two collections "user information" and "notes information".
 
-Some notes for me: 20230101
-App-tinder2 I have EAS build for google signin works!
-App-1 boy with firebase signinSignUpwEmailPassword works!
-->be careful, there is setting connect with firebase together! I will do different
-setting from video 2 about firebase setting.
+**My learning and practic still continue** 🏄‍♀️
 
-App-2 femal video 1 google signin-nofirebase- RN-web connect - 60%works
-App-3 femal video 2 google signin-nofirebase- RN-but no refresh Token (if connect with Firebase I dont need to refresh token) - 90%works
+Main tech:
+React Native
+Expo
+Firebase Admin SDK
+Firebase auth and Firestore
